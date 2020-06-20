@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<title>Quora dark theme</title>
+		<script src="popup.js"></script>
+	</head>
+	<style>
+		* {
+			margin: 0;
+			padding: 0;
+		}
+		body {
+			width: 300px;
+			height: 100px;
+		}
+		.container {
+			display: flex;
+			width: 100%;
+			height: 100%;
+			background-color: #fff8dc;
+		}
+		.children {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			flex: 1;
+			padding: 10px;
+		}
+		.children:hover {
+			background-color: #a9a9a9 !important;
+		}
+		.o-card {
+			width: 100%;
+			height: 50px;
+			display: flex;
+			align-items: flex-end;
+		}
+		.i-card {
+			height: 45%;
+			width: 45%;
+		}
+		.text {
+			text-align: center;
+			margin-top: 8px;
+		}
+		.black {
+			background-color: #212121;
+		}
+		.bg-black {
+			background-color: #303030;
+		}
+		.clairvoyant {
+			background-color: #39065a;
+		}
+		.bg-clairvoyant {
+			background-color: #6a0572;
+		}
+		.def {
+			background-color: rgba(200, 213, 219, 0.89);
+		}
+		.def-bg {
+			background-color: rgb(207, 198, 198);
+		}
+	</style>
+	<body>
+		<div class="container">
+			<div id="light" class="children " value="light">
+				<div class="o-card def">
+					<div class="i-card def-bg"></div>
+				</div>
+				<div class="text">
+					light
+				</div>
+			</div>
+			<div id="dark" class="children" value="dark">
+				<div class="o-card black">
+					<div class="i-card bg-black"></div>
+				</div>
+				<div class="text">
+					dark
+				</div>
+			</div>
+			<div id="clairvoyant" class="children" value="clairvoyant">
+				<div class="o-card clairvoyant">
+					<div class="i-card bg-clairvoyant"></div>
+				</div>
+				<div class="text">
+					clairvoyant
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

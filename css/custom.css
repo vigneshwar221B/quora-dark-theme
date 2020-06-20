@@ -1,0 +1,93 @@
+:root {
+	--primary-bg-color: #212121;
+	--secondary-bg-color: #303030;
+	--hover-bg-color: #424242;
+	--light-white: rgba(255, 255, 255, 0.856);
+}
+
+body {
+	background-color: var(--secondary-bg-color) !important;
+	color: white !important;
+	border: 0 !important;
+}
+
+/* side */
+.qu-bg--gray {
+	background-color: var(--primary-bg-color) !important;
+}
+.q-platform--desktop .qu-hover--bg--gray:hover {
+	background-color: var(--primary-bg-color) !important;
+}
+.qu-color--gray {
+	color: white !important;
+}
+
+/* header */
+.qu-bg--white {
+	background-color: var(--primary-bg-color) !important;
+}
+.q-platform--desktop .qu-hover--borderColor--blue:hover {
+	border-color: white !important;
+}
+
+.fAeiPs[data-placement*='bottom']::after {
+	border-color: var(--primary-bg-color) !important;
+}
+
+/* content */
+.qu-passColorToLinks a {
+	color: white !important;
+}
+
+.qu-color--gray_dark_dim {
+	color: white !important;
+}
+
+.emhjeo {
+	background-color: var(--secondary-bg-color) !important;
+}
+
+.fCzczk .button_wrapper:hover,
+.fCzczk .button_wrapper:active,
+.fCzczk .button_wrapper:focus {
+	background-color: var(--hover-bg-color) !important;
+}
+
+.qu-bg--blue_light, .qu-bg--blue {
+	background-color: var(--secondary-bg-color) !important;
+}
+
+.qu-borderColor--gray {
+	border-color: var(--secondary-bg-color) !important;
+}
+
+.qu-color--blue,
+.qu-color--blue_dark,
+.qu-color--gray_dark {
+	color: white !important;
+}
+
+div {
+	border-color: var(--primary-bg-color) !important;
+}
+
+.iVA-Dxf .button_wrapper:hover,
+.iVA-Dxf .button_wrapper:active,
+.iVA-Dxf .button_wrapper:focus {
+	background-color: var(--secondary-bg-color) !important;
+}
+
+/* cmnts */
+.qu-bg--gray_ultralight {
+	background-color: var(--primary-bg-color) !important;
+}
+
+/* notifs */
+.qu-bg--blue_ultralight {
+	background-color: var(--primary-bg-color) !important;
+}
+
+.q-platform--desktop .qu-hover--bg--blue_light:hover,
+.q-platform--desktop .qu-hover--bg--gray_ultralight:hover {
+	background-color: var(--hover-bg-color) !important;
+}
